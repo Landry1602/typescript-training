@@ -44,7 +44,7 @@ describe('Template literals', () => {
     // escape a string in a template literal for each of these
     expect(`Hi
 there!`).toBe('Hi\nthere!')
-    expect('This is \`escaped\` backtics').toBe('This is `escaped` backtics')
+    expect(`This is \`escaped\` backtics`).toBe('This is `escaped` backtics')
   })
 
   // you likely wont often use tagging, but it can be handy!
