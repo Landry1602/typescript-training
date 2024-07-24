@@ -42,7 +42,8 @@ describe('Template literals', () => {
 
   it('should support string escaping', () => {
     // escape a string in a template literal for each of these
-    expect('Hi\nthere!').toBe('Hi\nthere!')
+    expect(`Hi
+there!`).toBe('Hi\nthere!')
     expect('This is \`escaped\` backtics').toBe('This is `escaped` backtics')
   })
 
